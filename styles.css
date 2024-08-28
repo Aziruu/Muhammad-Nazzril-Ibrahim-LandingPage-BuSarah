@@ -1,0 +1,250 @@
+body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+}
+    
+nav {
+        background-color: #333;
+        display: flex;
+        position: sticky;
+}
+
+.nav-bar{
+        display: flex;
+}
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+}
+    
+nav ul li {
+        display: inline;
+}
+    
+nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+        display: block;
+}
+    
+nav ul li a:hover {
+        background-color: #555;
+}
+
+.logo {
+        height: 5vh;
+        display: inline;
+        margin-top: 1rem;
+        margin-left: 3vh;
+        margin-right: 5vh;
+}
+
+header {
+        background-image: url('./assets/bg1.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+#hom {
+        width: 100%;
+        height: 90vh;
+        align-items: start;
+}
+
+#hom h1, p, .goto {
+        color: white;
+        margin-left: 5vh;
+        margin-top: 10vh;
+}
+
+#hom h1 {
+        font-size: 10vh;
+}
+
+#hom p {
+        width: 45%;
+        font-size: 3.5vh;
+}
+
+.goto  {
+        width: 30%;
+        height: 7vh;
+        border: none;
+        background: rgb(102, 144, 158);
+        margin-top: 5vh;
+        cursor: pointer;
+}
+
+.goto a {
+        color: white;
+        text-decoration: none;
+}
+
+.goto :hover {
+        background : rgb(255, 255, 255);
+        color: black;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+        padding-right: 33.3%;
+        padding-left: 33.3%;
+        border: none;
+}
+
+.mh {
+        background-color: #333;
+        padding: 2vh;
+        margin: 0;
+        color: white;
+        justify-content: center;
+        display: flex;
+}
+
+.evcon{
+        display: flex;
+}
+
+.content1 {
+        width: 50%;
+        height: 100vh;
+        background: linear-gradient(to left, #6b6bb9, #202020);
+        display: inline-block;
+}
+
+.content1 h2 {
+        margin: 0;
+        padding-top: 2vh;
+        margin-left:3vh ;        
+}
+
+.content1 ul, h2 {
+        color: white;
+}
+
+.content2 {
+        width: 50%;
+        height: 100vh;
+        background: linear-gradient(to right, #6b6bb9, #202020);
+        justify-content: end;
+        align-items: end;
+}
+
+.content2 h2 {
+        margin: 0;
+        padding-top: 2vh;
+        margin-left:3vh ;        
+}
+
+.content2 ul, h2 {
+        color: white;
+}
+
+#main2{
+        background-image: url('./assets/bg2.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+}
+
+#main2 h2, p {
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        margin-left: 3vh;
+}
+
+#main2 h2 {
+        font-size: 7vh;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+}
+
+#main2 p {
+        width: 35%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+
+#main2 ul, li {
+        color: white;
+        margin: 1vh;
+}
+
+#main3 {
+        background-image: url('./assets/bg3.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+}
+
+.txt-main3 {
+        display: flex;
+        margin-top: 6vh;
+        margin-left: 2vh;
+}
+
+.txt-main3 p {
+        font-size: 1.7rem;
+        display: inline-block;
+        margin-right: 2.5vh;
+        background: rgba(247, 182, 182, 0.6);
+        padding: 2vh;
+}
+
+.char-ttr {
+        height: 30vh;
+        background-color: rgb(220, 143, 71);
+        display: inline-block;
+        border: dashed 1vh black;
+        margin: 3vh;
+}
+
+.bot-p {
+        font-size: 1.7rem;
+        margin-left: 5vh;
+        width: 90%;
+        background: rgba(247, 182, 182, 0.6);
+        padding: 2vh;
+}
+
+#footer {
+        background-color: #333;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+}
+
+.footer-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+}
+
+.contact-info {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+.contact-info li {
+        margin: 0.5rem 0;
+}
+
+.contact-info li a {
+        color: #6b6bb9;
+        text-decoration: none;
+        transition: color 0.3s;
+}
+
+.contact-info li a:hover {
+        color: #9b9bd9;
+}
+

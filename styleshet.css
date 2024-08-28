@@ -1,0 +1,337 @@
+* {
+  font-family: "montserrat";
+  box-sizing: border-box;
+}
+
+.txt-col-w{
+  color: white;
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  position: sticky;
+}
+
+.nav-bar {
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  color: white;
+  transition: 0.5s;
+}
+
+nav span {
+  margin-left: 17rem;
+}
+
+.logo {
+  height: 5vh;
+  display: inline;
+  margin-top: 1rem;
+  margin-left: 3vh;
+  margin-right: 5vh;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+header {
+  width: 100%;
+  height: 37rem;
+  background-color: #f1f1f1;
+}
+
+.bg {
+  width: 65%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.head-item {
+  width: 25%;
+  position: absolute;
+  bottom: 28%;
+  right: 20%;
+}
+
+.head-item h1,
+p {
+  color: white;
+}
+
+.home {
+  width: 45%;
+  height: 6vh;
+  background: transparent;
+  border: 0.5vh solid white;
+  border-radius: 5vh;
+  color: white;
+}
+
+.home:hover {
+  background-color: white;
+  color: rgb(250, 73, 73);
+  transition: 0.5s;
+}
+
+.main1 {
+  width: 100%;
+  height: 55rem;
+}
+
+.main1 h1 {
+  font-size: 5vh;
+  margin: 5vh;
+  color: #c02026;
+}
+
+.item-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 3vh;
+        justify-items: center;
+        align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+  width: auto;
+}
+
+.item img {
+  width: 40px;
+  height: auto;
+  padding: 1vh;
+  border-radius: 1.5vh;
+  background-color: #f2de7a;
+  margin-right: 1vw;
+}
+
+.item h4 {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #c02026;
+}
+
+.main1box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5vh;
+}
+
+.text-ww,
+.text-nw {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 1vh 1%;
+}
+
+.h1s {
+  font-size: 2rem;
+  margin: 0;
+  width: calc(100% - 80px);
+  display: inline-block;
+  color: #c02026;
+}
+
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #f2de7a;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5vh;
+}
+
+.text-nw {
+  background-color: #f2de7a;
+  padding: 3vh;
+  border-radius: 1vh;
+}
+
+.btn-mx {
+  width: 100%;
+  height: 6vh;
+  background: transparent;
+  border: 0.5vh solid white;
+  border-radius: 5vh;
+  color: white;
+  display: block;
+}
+
+.btn-mx:hover {
+  background-color: white;
+  color: #f2de7a;
+  transition: 0.5s;
+}
+
+.main2 {
+  width: 100%;
+  height: 60rem;
+  background-color: #f1f1f1;
+  margin-top: 2vh;
+}
+
+.main2 {
+  text-align: center;
+  padding: 2vh;
+  width: 100%;
+  height: 90rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main2 h1 {
+  font-size: 3rem;
+  margin-bottom: 3vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 3vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.prod-box,
+.prod-box2 {
+  padding: 3vh;
+  width: 55vh;
+  height: 35vh;
+  border-radius: 2vh;
+  text-align: center;
+}
+
+.prod-box h4, p
+.prod-box2 h4, p {
+  color: white;
+}
+
+.prod-icon {
+  width: 10%;
+  height: auto;
+}
+
+.prod-box {
+  background-color: #c02026;
+}
+
+.prod-box2 {
+  background-color: #f2de7a;
+}
+
+.main2 h2{
+        font-size: 3.3rem;
+}
+
+.fatui-pic {
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+}
+
+.number-fat{
+  display: inline-block;
+  margin: 1vh;
+}
+
+.numberbox{
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.main3 h1{
+  color: #c02026;
+}
+
+.main3 h4{
+  width: 50%;
+}
+
+.main3 h1, h4, p {
+  margin: 3vh;
+  color: black;
+}
+
+.main3-img {
+  display: inline-block;
+  width: 45%;
+  height: 45%;
+  margin: 3vh;
+}
+
+.main3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-item{
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+}
+
+.container-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.container-item-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-item-list span {
+  margin-right: 5vh;
+}
