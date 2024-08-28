@@ -18,11 +18,11 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#main4">Contact</a></li>
                 </ul>
             </nav>
             <!-- -Home- -->
-             <header>
+             <header id="home">
                 <img src="./assets/home.png" alt="" class="bg">
                 <div class="head-item">
                         <h1>Fatui Harbingers</h1>
@@ -31,7 +31,8 @@
                 </div>
              </header>
              <main class="main1">
-                <h1>Prototype a digital product idea</h1>
+                <div id="about">
+                    <h1>Prototype a digital product idea</h1>
                 <div class="item-list">
                         <div class="item">
                             <img src="./assets/Icon/white/chess-rook-regular.svg" alt="Chess Rook Icon">
@@ -68,9 +69,11 @@
                                 <button class="btn-mx">Join Us</button>
                             </div>
                     </div>
-             </main>
+                </div>
+            </main>
              <main class="main2">
-                <h2 class="h2s">The New Product Development Process</h2>
+                <div id="services">
+                    <h2 class="h2s">The New Product Development Process</h2>
                 <div class="grid-container">
                     <div class="prod-box">
                         <img src="./assets/Icon/white/chess-rook-regular.svg" alt="" class="prod-icon">
@@ -125,6 +128,7 @@
                     </div>
                 </div>
                 <h3>Stay From Project</h3>
+                </div>
             </main>
             <main class="main3">
                 <h1>We Build Usuable Products</h1>
@@ -178,8 +182,53 @@
                 </div>
                 <p>Fatui will dominate.</p>
             </main>
-            <main class="main4">
-                
+            <main id="main4">
+                <div class="container">
+                    <div class="cards">
+                        <div class="card">
+                            <h3>SEP 25, 2023</h3>
+                            <p>Check our latest blog post for more updates</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <h3>JULY 10, 2023</h3>
+                            <p>Development is a process that creates growth</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="card">
+                            <h3>MARCH 19, 2023</h3>
+                            <p>A marketing strategy refers to a game plan</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="contact-section">
+                        <div class="contact-form">
+                            <h3>Contact Us</h3>
+                            <form action="#">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name">
+                                
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                                
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message"></textarea>
+                                
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Contact Info</h3>
+                            <p class="txt-col-w"><strong>Call:</strong> (666) 356-7320</p>
+                            <p class="txt-col-w"><strong>Email:</strong> contact@example.com</p>
+                            <p class="txt-col-w"><strong>Location:</strong>Teyvat, Snezaya, Secret Base</p>
+                            <p class="txt-col-w"><strong>Working Hours:</strong> Mon - Sun:  1.00 AM - 00:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <p class="txt-col-w">© 2024 Company Name. All Rights Reserved. Designed by Your Name.</p>
+                </footer>
             </main>            
 </body>
 </html>
