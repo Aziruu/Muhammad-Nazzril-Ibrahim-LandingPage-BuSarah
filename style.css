@@ -49,10 +49,6 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-nav span {
-  margin-left: 17rem;
-}
-
 .logo {
   height: 5vh;
   display: inline;
